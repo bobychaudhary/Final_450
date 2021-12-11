@@ -2,12 +2,12 @@ import java.util.EmptyStackException;
 
 //Implementation stack from scratch
 class Stack{
-    private ListNode top;
+    protected ListNode top;
     private int length;
 
-    private class ListNode{
-        private int data;
-        private ListNode next;
+    class ListNode{
+        int data;
+        ListNode next;
 
         ListNode(int data){
             this.data=data;
