@@ -1,7 +1,5 @@
 //write the code for implementation for fractional knapsak problem
 //using dynamic programming
-//
-//
 class solution{
     public static void main(String[] args){
         int[] wt = {1,2,3};
