@@ -1,7 +1,10 @@
+import java.util.Stack;
 
 // Implement a method to insert an element at its bottom without using any other data structure.
-class solution extends Stack {
-    static void inset_at_bottom(char x){
+class solution {
+    static Stack<Character> stack = new Stack<>();
+
+    static void insert_at_bottom(char x){
     if(stack.isEmpty()){
         stack.push(x);
     }
